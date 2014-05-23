@@ -20,12 +20,15 @@ group :test do
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
-gem 'sass-rails', '4.0.0'
+gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.0'
 gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
+
+#this are solutions related with the rails 4.1.1 update
+gem 'sprockets', '2.11.0'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'tzinfo'
 
